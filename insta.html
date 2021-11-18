@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>insta website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+<style>
+    body {
+        background-color: white;
+    }
+    .main{
+        margin: auto;
+        width: 340px;
+        margin-top: 5.5vh;
+        border: 1px solid grey;
+        /* padding-top: -100px; */
+        height: 370px;
+    }
+    .heading1 {
+        font-family: 'Style Script', cursive;
+        text-align: center;
+        font-size: 1.6rem;
+        margin-top: -15px;
+        /* padding-top: -10px; */
+        margin-bottom: -15px;
+    }
+    .heading2{
+        text-align: center;
+        font-size: 0.9rem;
+        margin-left: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .heading3{
+        text-align: center;
+        font-size: 0.8rem;
+        margin-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    .heading4{
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: normal;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: sans-serif;
+    }
+    #username {
+        width: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-left: 35px;
+        outline: grey;
+        opacity: 0.6;
+        
+    }
+
+    #password {
+        width: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-left: 35px;
+        margin-top: 5px;
+        outline: grey;
+        opacity: 0.6;
+    } 
+    .btn1{
+        width: 200px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-left: 35px;
+        /* margin-top: 5px; */
+        background-color: #39A2DB;
+        margin-top: 15px;
+        opacity: 0.6;
+    }
+    
+    .social_icon{
+        color: #001E6C; 
+        padding: 5px;
+        padding-top: 10px;
+        text-align: center;
+
+        
+
+    }
+    .arrow{
+        background-color: grey;
+        height: 1px;
+        width: 170px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .content{
+        color: grey;
+        margin-top: -8px;
+        
+        
+    }
+    .line{
+        display: flex;
+        margin-top: 3.5px;
+        margin-left: 30px;
+        margin-right: 30px;
+
+    }
+    .forget-password{
+        text-align: center;
+        font-size: 0.8rem;
+        margin-left: 10px;
+        margin-top: 10px;
+        color:#001E6C ;
+        /* padding-bottom: -10px; */
+    }
+    .footer{
+      margin-top: 30px;
+      width: 340px;
+      /* height: 40px;
+        padding: auto; */
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: -1px;
+        /* font-size: 1.5rem; */
+      border: 1px solid grey;
+    }
+    .btn{
+            padding: 5px;
+            background-color: black;
+            color: white;
+            border-radius: 3px;
+            width: 130px;
+            text-align: center;
+            margin-left: 30px;
+            border: 1px solid black;
+            margin-bottom: 8.7vh;
+        }
+        .btn_btn{
+            padding: 5px;
+            background-color: black;
+            color: white;
+            border-radius: 3px;
+            width: 140px;
+            margin-left: 20px;
+            border: 1px solid black;
+            margin-bottom: 30vh;
+
+        }
+        .btn-dark{
+            margin-left: 25px;
+        }
+        @media(max-width: 913px) {
+            #title{
+                text-align: center;
+            }
+
+            .title-img{
+                position: static;
+                transform: rotate(0);
+            }
+            
+        }
+    
+    
+
+   
+
+
+
+    
+</style>
+
+<body>
+    <div class="main">
+        <div class="heading1">
+            <h1>Instagram</h1>
+        </div>
+        <form>
+            <input type="text" id="username" placeholder="Phone Number, username, or email" required style="width: 250px;">
+            <br>
+            
+            <input type="password" id="password" placeholder="Password" required style="width: 250px;" ><br>
+            <button type="submit" class="btn1" style="width: 272px;" >Log In</button><br><br>
+            <div class="line">
+            <span class="arrow"></span>
+            <span class="content">OR</span>
+            <span class="arrow"></span>
+            </div>
+            
+            <br>
+            <div class="social_icon">
+            <i class= "fab fa-facebook-square"></i> &hairsp; <span><b>Log in with Facebook</b></span>
+            </div>
+            <div class="forget-password"><a href="#">Forgot password?</a></div>
+            <div class="footer">
+                <div class="heading2">Don't have an account? &hairsp; <a href="#">Sign up</a></div>
+            </div>
+
+
+        </form>
+        <div class="heading4">
+            <h3>Get the app.</h3>
+        </div>
+        <button type="button" class="btn btn-dark"><i class="fab fa-apple"></i> &hairsp; Download on the App Store</button>
+        <button type="button" class="btn_btn btn-light"><i class="fas fa-play"></i>&hairsp; Get it on Google Play</button>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
